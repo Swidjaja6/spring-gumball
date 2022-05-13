@@ -23,6 +23,8 @@ import com.example.gumballmachine.GumballMachine ;
 @RequestMapping("/")
 public class GumballMachineController {
 
+    // Workflow Change Test 
+
     @GetMapping
     public String getAction( @ModelAttribute("command") GumballCommand command, 
                             Model model, HttpSession session) {
